@@ -6,7 +6,10 @@
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	// "features": {
+		"ghcr.io/cirolosapio/devcontainers-features/alpine-gh-copilot-cli:0": {}
+		
+	},
 
 	// Configure tool-specific properties.
 	"customizations": {
